@@ -10,3 +10,7 @@ h1 {
 .byline * {
   display: inline-block;
 }
+
+img {
+  max-width: 480px;
+}
