@@ -6,15 +6,12 @@
     display: block;
     position: absolute;
     top: 0;
-    right: 0
-  }
-  .main-nav {
-    position: relative;
+    right: 0;
   }
   .main-nav ul {
     display: none;
   }
-  .icon-menu:hover + section ul {
+  .icon-menu:hover + section ul li {
     display: block;
   }
   ul {
@@ -29,7 +26,7 @@
   .main-nav li {
     border-bottom: solid 1px #777777;
   }
-}
-.template {
-  display: none;
+  .template {
+    display: none;
+  }
 }
