@@ -1,0 +1,35 @@
+@media only screen and (max-width: 640px) {
+  .site-header {
+    position: relative;
+  }
+  div.icon-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0
+  }
+  .main-nav {
+    position: relative;
+  }
+  .main-nav ul {
+    display: none;
+  }
+  .icon-menu:hover + section ul {
+    display: block;
+  }
+  ul {
+    padding-left: 0;
+  }
+  ul li {
+    list-style: none;
+    width: 100%;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+  }
+  .main-nav li {
+    border-bottom: solid 1px #777777;
+  }
+}
+.template {
+  display: none;
+}
