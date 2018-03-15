@@ -11,7 +11,7 @@
   .main-nav ul {
     display: none;
   }
-  .icon-menu:hover + section ul li {
+  .icon-menu:hover + ul {
     display: block;
   }
   ul {
@@ -26,7 +26,7 @@
   .main-nav li {
     border-bottom: solid 1px #777777;
   }
-  .template {
-    display: none;
-  }
+}
+.template {
+  display: none;
 }
